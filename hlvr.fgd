@@ -60,7 +60,12 @@
 		"models/characters/combine_soldier_captain/combine_captain.vmdl" : "Combine Captain"
 	]
 ]
-
+@PointClass base(Targetname, BasePhysicsSimulated) editormodel("models/props/xen_infestation/xen_grenade_plant.vmdl") = xen_foliage_grenade_spawner : "xen grenade spawer, sensitive to tickling"
+[
+]
+@PointClass base(Targetname, BasePhysicsSimulated) editormodel("models/props/xen_infestation/boomerplant_01.vmdl") = xen_foliage_bloater : "explody xen foliage"
+[
+]
 // ----------------------------------------- TILE ENTITIES -----------------------------------------
 @SolidClass base(Targetname) = func_dry_erase_board : "Placeholder"
 [
