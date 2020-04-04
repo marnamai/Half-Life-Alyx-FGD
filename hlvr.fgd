@@ -45,6 +45,11 @@
 
 @PointClass base(Targetname) editormodel("models/creatures/antlion/antlion.vmdl") = npc_antlion : "Placeholder"
 [
+	model(choices) : "Model" : "models/creatures/antlion/antlion.vmdl" : "Antlion" = 
+	[
+		"models/creatures/antlion/antlion.vmdl" : "Antlion"
+		"models/creatures/antlion/antlion_worker.vmdl" : "Antlion Worker"
+	]
 ]
 
 @PointClass base(Targetname) editormodel("models/characters/eli/eli.vmdl") = npc_eli : "Placeholder"
