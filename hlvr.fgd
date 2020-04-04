@@ -70,6 +70,9 @@
 @PointClass base(Targetname) editormodel("models/props_combine/health_charger/combine_health_charger_vr.vmdl") = item_healthcharger : "SPAWNS WITH GRUB. TODO: ADD OPTION TO NOT HAVE GRUB"
 [
 ]
+@PointClass base(Targetname) editormodel("models/props_combine/health_charger/health_vial.vmdl") = item_hlvr_health_station_vial : "squishy healing juice in a jar."
+[
+]
 @PointClass base(Targetname) editormodel("models/props_combine/combine_printer/combine_crafting_station.vmdl") = prop_hlvr_crafting_station : "Placeholder"
 [
 ]
