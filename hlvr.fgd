@@ -24,15 +24,15 @@
 @PointClass base(Targetname) editormodel("models/creatures/headcrab_armored/headcrab_armored.vmdl") = npc_headcrab_armored : "Placeholder"
 [
 ]
-
+@PointClass base(Targetname) editormodel("models/creatures/headcrab_reviver/headcrab_reviver.vmdl") = npc_headcrab_runner : "Placeholder"
+[
+]
 @PointClass base(Targetname) editormodel("models/creatures/zombie_classic/zombie_classic.vmdl") = npc_zombie : "Placeholder"
 [
 ]
-@PointClass base(Targetname) editormodel("models/creatures/zombie_blind/zombie_blind.vmdl") = npc_zombie_blind : "Placeholder"
+@PointClass base(Targetname) editormodel("models/creatures/zombie_blind/zombie_blind.vmdl") = npc_zombie_blind : "Jeff"
 [
 ]
-
-
 @PointClass base(Targetname) editormodel("models/creatures/manhack/manhack.vmdl") = npc_manhack : "Placeholder"
 [
 ]
@@ -42,11 +42,9 @@
 @PointClass base(Targetname, BasePhysicsSimulated) editormodel("models/combine_turrets/floor_turret.vmdl") = npc_turret_floor : "Placeholder"
 [
 ]
-
 @PointClass base(Targetname) editormodel("models/creatures/antlion/antlion.vmdl") = npc_antlion : "Placeholder"
 [
 ]
-
 @PointClass base(Targetname) editormodel("models/characters/eli/eli.vmdl") = npc_eli : "Placeholder"
 [
 ]
@@ -65,12 +63,17 @@
 @SolidClass base(Targetname) = func_dry_erase_board : "Placeholder"
 [
 ]
-
+@SolidClass base(Targetname) = func_combine_barrier : "Combine fence"
+[
+]
 // ----------------------------------------- ITEMS -----------------------------------------
 @PointClass base(Targetname) editormodel("models/props_combine/health_charger/combine_health_charger_vr.vmdl") = item_healthcharger : "SPAWNS WITH GRUB. TODO: ADD OPTION TO NOT HAVE GRUB"
 [
 ]
-@PointClass base(Targetname) editormodel("models/props_combine/combine_printer/combine_crafting_station.vmdl") = prop_hlvr_crafting_station : "Placeholder"
+@PointClass base(Targetname) editormodel("models/props_combine/combine_printer/combine_crafting_station.vmdl") = prop_hlvr_crafting_station_console : "Placeholder"
+[
+]
+@PointClass base(Targetname) editormodel("models/props_combine/combine_doors/combine_hacking_interact_point.vmdl") = info_hlvr_holo_hacking_plug : "with multitool hackable plug, used for crafting stations, combine lockers, doors, ect ..."
 [
 ]
 @PointClass base(BasePropDoorRotating) model() = prop_door_rotating_physics : "Placeholder door."
